@@ -1,0 +1,10 @@
+
+#BookSearch{
+ color: black;
+ text-align: right;
+ font-size: 20px;
+}
+
+input.ui-input-text-placeholder, textarea.ui-input-text-placeholder {
+    width: 98% !important;
+}
