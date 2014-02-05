@@ -1,0 +1,48 @@
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+<div data-role="page" id="page1">
+    <div data-role="header">
+         <h1>Books and Direction Finder</h1>
+
+    </div>
+    <div data-role="content">
+        <p><a href="BookSearchPage" data-role="button">Books Search</a>
+
+        </p>
+        <p><a href="#DirectionPage" data-role="button">Direction Finder</a>
+
+        </p>
+    </div>
+</div>
+<div data-role="page" id="BookSearchPage">
+    <div data-role="header"> <a data-rel="back" data-icon="home">Home</a>
+
+         <h1>Book Search</h1>
+
+    </div>
+    <div data-role="content">
+        <p>Book Search Sample</p>
+        <div id="search"></div>
+    </div>
+</div>
+<div data-role="page" id="DirectionPage">
+    <div data-role="header"> <a data-rel="back" data-icon="home">Home</a>
+
+         <h1>Direction Finder</h1>
+
+    </div>
+    <div data-role="content"></div>
+    <form method="post">
+        <div data-role="fieldcontain">
+            <label for="starT">Origin:</label>
+            <input type="text" name="starT" id="starT">
+            <br>
+            <br>
+            <label for="desT">Destination:</label>
+            <input type="text" name="DesT" id="DesT">
+            <br>
+            <button id="getdirection">Get Direction</button>
+            <div id="map_canvas" style="height: 400px; width: 400px"></div>
+        </div>
+    </form>
+</div>
+</div>
